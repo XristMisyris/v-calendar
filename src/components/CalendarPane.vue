@@ -144,9 +144,7 @@
   </div>
   <div class="v-calendar-footer">
     <slot
-      name='calendar-footer'
-      v-bind='p'>
-      {{ p.title }}
+      name='calendar-footer'>
     </slot>
   </div>
 </div>
