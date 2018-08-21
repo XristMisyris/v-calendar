@@ -142,6 +142,13 @@
       </calendar-weeks>
     </transition-group>
   </div>
+  <div class="v-calendar-footer">
+    <slot
+      name='calendar-footer'
+      v-bind='p'>
+      {{ p.title }}
+    </slot>
+  </div>
 </div>
 </template>
 
